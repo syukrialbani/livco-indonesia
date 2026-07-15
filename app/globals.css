@@ -1,5 +1,3 @@
-@import "tailwindcss";
-
 :root { --forest:#12382d; --forest-2:#1d5040; --leaf:#8fa06a; --brown:#744e32; --clay:#a5734f; --ivory:#f2eddf; --paper:#f7f4ec; --ink:#183028; --line:rgba(24,48,40,.16); --font-serif:var(--font-sans); }
 * { box-sizing:border-box; }
 html { scroll-behavior:smooth; }
