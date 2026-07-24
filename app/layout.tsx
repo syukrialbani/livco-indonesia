@@ -25,6 +25,6 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  const organization = { "@context": "https://schema.org", "@type": "Organization", name: "LIVCO Indonesia", url: "https://livcoindonesia.com", email: "hello@livcoindonesia.com", address: { "@type": "PostalAddress", addressLocality: "Jakarta", addressCountry: "ID" } };
+  const organization = { "@context": "https://schema.org", "@type": "Organization", name: "LIVCO Indonesia", url: "https://livcoindonesia.com", email: "hello@livcoindonesia.com", address: { "@type": "PostalAddress", addressLocality: "Pariaman", addressCountry: "ID" } };
   return <html lang="id"><body className={sans.variable}><a className="skip-link" href="#main-content">Lewati ke konten utama</a><ExperienceLayer /><SiteHeader /><div id="main-content" tabIndex={-1}>{children}</div><SiteFooter /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organization) }} /></body></html>;
 }
