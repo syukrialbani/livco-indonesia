@@ -13,7 +13,7 @@ export default function Home() {
         <div className="container hero-content">
           <Reveal immediate><span className="eyebrow eyebrow--light">From Indonesia, naturally</span><h1>Pure coconut.<br /><em>Real possibilities.</em></h1><p>LIVCO Indonesia menghadirkan bahan baku kelapa berkualitas untuk industri pangan, personal care, dan nutrisi—dengan proses yang transparan dari sumber hingga pengiriman.</p><div className="hero-actions"><Link className="button button--ivory" href="/products">Jelajahi produk <span>↗</span></Link><Link className="button-link" href="/about">Kenali LIVCO <span>→</span></Link></div></Reveal>
         </div>
-        <div className="hero-meta"><span>Jakarta · Indonesia</span><span>Scroll to discover ↓</span></div>
+        <div className="hero-meta"><span>Pariaman · Indonesia</span><span>Scroll to discover ↓</span></div>
       </section>
 
       <section className="intro section">
